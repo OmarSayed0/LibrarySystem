@@ -8,17 +8,19 @@
             Console.WriteLine(
                 """
                 Please select type of user :
-                1.Librarian(L) 
-                2.Member(M)
+
+                    1.Librarian(L) 
+                    2.Member(M)
                 """);
 
-            var userType = Console.ReadLine();
+            char userType = Console.ReadLine()[0];
+
             switch (userType)
             {
-                case "L":
+                case 'L':
                     Console.WriteLine("Welcome Librarian");
                     break;
-                case "M":
+                case 'M':
                     Console.WriteLine("Welcome Member");
                     break;
                 default:
