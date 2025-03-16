@@ -13,15 +13,18 @@
                     2.Member(M)
                 """);
 
-            char userType = Console.ReadLine()[0];
+            char userType = Console.ReadLine().ToUpper()[0];
+            
 
             switch (userType)
             {
                 case 'L':
-                    Console.WriteLine("Welcome Librarian");
+
+
                     break;
                 case 'M':
-                    Console.WriteLine("Welcome Member");
+
+
                     break;
                 default:
                     Console.WriteLine("Invalid user type");

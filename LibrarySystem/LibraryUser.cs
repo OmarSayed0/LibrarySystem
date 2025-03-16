@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibrarySystem
 {
-    class LibraryUser : User
+    class LibraryUser
     {
-        public LibraryCard Card { get; set; }
     }
 }

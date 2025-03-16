@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibrarySystem
 {
-     public abstract class User
-     {
-        public string Name { get; set; }
-        public Book[] DisplayBooks() 
-        { 
-            
-        }
-     }
+    class User
+    {
+    }
 }
