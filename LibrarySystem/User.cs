@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibrarySystem
 {
-    class User
+    public abstract class User
     {
+        public string Name { get; set; }
+
     }
 }

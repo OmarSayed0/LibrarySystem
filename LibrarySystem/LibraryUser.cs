@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace LibrarySystem
 {
-    class LibraryUser
+    class LibraryUser : User
     {
+
+        public void BorrowBook(Library library, string title)
+        {
+            library.BorrowBook(title);
+        }
+        public void ReturnBook(Library library, string title)
+        {
+            library.ReturnBook(title);
+        }
+
     }
 }
